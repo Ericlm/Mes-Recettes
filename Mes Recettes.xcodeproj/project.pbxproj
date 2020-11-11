@@ -8,18 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		903D7E6C255C1CC8006AF9B8 /* Mes_RecettesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903D7E6B255C1CC8006AF9B8 /* Mes_RecettesApp.swift */; };
-		903D7E6E255C1CC8006AF9B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903D7E6D255C1CC8006AF9B8 /* ContentView.swift */; };
+		903D7E6E255C1CC8006AF9B8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903D7E6D255C1CC8006AF9B8 /* MainView.swift */; };
 		903D7E70255C1CD3006AF9B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903D7E6F255C1CD3006AF9B8 /* Assets.xcassets */; };
 		903D7E73255C1CD3006AF9B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903D7E72255C1CD3006AF9B8 /* Preview Assets.xcassets */; };
+		903D7E86255C20ED006AF9B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903D7E85255C20ED006AF9B8 /* Images.xcassets */; };
+		903D7E89255C2202006AF9B8 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903D7E88255C2202006AF9B8 /* Recipe.swift */; };
+		903D7E8C255C2233006AF9B8 /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903D7E8B255C2233006AF9B8 /* RecipeData.swift */; };
+		903D7E90255C28F4006AF9B8 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903D7E8F255C28F4006AF9B8 /* RecipeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		903D7E68255C1CC8006AF9B8 /* Mes Recettes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mes Recettes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		903D7E6B255C1CC8006AF9B8 /* Mes_RecettesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mes_RecettesApp.swift; sourceTree = "<group>"; };
-		903D7E6D255C1CC8006AF9B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		903D7E6D255C1CC8006AF9B8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		903D7E6F255C1CD3006AF9B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		903D7E72255C1CD3006AF9B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		903D7E74255C1CD3006AF9B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		903D7E85255C20ED006AF9B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		903D7E88255C2202006AF9B8 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		903D7E8B255C2233006AF9B8 /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
+		903D7E8F255C28F4006AF9B8 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				903D7E6B255C1CC8006AF9B8 /* Mes_RecettesApp.swift */,
-				903D7E6D255C1CC8006AF9B8 /* ContentView.swift */,
+				903D7E6D255C1CC8006AF9B8 /* MainView.swift */,
+				903D7E8F255C28F4006AF9B8 /* RecipeView.swift */,
+				903D7E88255C2202006AF9B8 /* Recipe.swift */,
+				903D7E8B255C2233006AF9B8 /* RecipeData.swift */,
 				903D7E6F255C1CD3006AF9B8 /* Assets.xcassets */,
 				903D7E74255C1CD3006AF9B8 /* Info.plist */,
 				903D7E71255C1CD3006AF9B8 /* Preview Content */,
+				903D7E85255C20ED006AF9B8 /* Images.xcassets */,
 			);
 			path = "Mes Recettes";
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				903D7E86255C20ED006AF9B8 /* Images.xcassets in Resources */,
 				903D7E73255C1CD3006AF9B8 /* Preview Assets.xcassets in Resources */,
 				903D7E70255C1CD3006AF9B8 /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				903D7E6E255C1CC8006AF9B8 /* ContentView.swift in Sources */,
+				903D7E89255C2202006AF9B8 /* Recipe.swift in Sources */,
+				903D7E8C255C2233006AF9B8 /* RecipeData.swift in Sources */,
+				903D7E6E255C1CC8006AF9B8 /* MainView.swift in Sources */,
 				903D7E6C255C1CC8006AF9B8 /* Mes_RecettesApp.swift in Sources */,
+				903D7E90255C28F4006AF9B8 /* RecipeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
