@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		903D7E6C255C1CC8006AF9B8 /* Mes_RecettesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903D7E6B255C1CC8006AF9B8 /* Mes_RecettesApp.swift */; };
+		903D7E6C255C1CC8006AF9B8 /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903D7E6B255C1CC8006AF9B8 /* MainApp.swift */; };
 		903D7E6E255C1CC8006AF9B8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903D7E6D255C1CC8006AF9B8 /* MainView.swift */; };
 		903D7E70255C1CD3006AF9B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903D7E6F255C1CD3006AF9B8 /* Assets.xcassets */; };
 		903D7E73255C1CD3006AF9B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903D7E72255C1CD3006AF9B8 /* Preview Assets.xcassets */; };
@@ -19,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		903D7E68255C1CC8006AF9B8 /* Mes Recettes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mes Recettes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		903D7E6B255C1CC8006AF9B8 /* Mes_RecettesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mes_RecettesApp.swift; sourceTree = "<group>"; };
+		903D7E6B255C1CC8006AF9B8 /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
 		903D7E6D255C1CC8006AF9B8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		903D7E6F255C1CD3006AF9B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		903D7E72255C1CD3006AF9B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		903D7E6A255C1CC8006AF9B8 /* Mes Recettes */ = {
 			isa = PBXGroup;
 			children = (
-				903D7E6B255C1CC8006AF9B8 /* Mes_RecettesApp.swift */,
+				903D7E6B255C1CC8006AF9B8 /* MainApp.swift */,
 				903D7E6D255C1CC8006AF9B8 /* MainView.swift */,
 				903D7E8F255C28F4006AF9B8 /* RecipeView.swift */,
 				903D7E88255C2202006AF9B8 /* Recipe.swift */,
@@ -154,7 +154,7 @@
 				903D7E89255C2202006AF9B8 /* Recipe.swift in Sources */,
 				903D7E8C255C2233006AF9B8 /* RecipeData.swift in Sources */,
 				903D7E6E255C1CC8006AF9B8 /* MainView.swift in Sources */,
-				903D7E6C255C1CC8006AF9B8 /* Mes_RecettesApp.swift in Sources */,
+				903D7E6C255C1CC8006AF9B8 /* MainApp.swift in Sources */,
 				903D7E90255C28F4006AF9B8 /* RecipeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
